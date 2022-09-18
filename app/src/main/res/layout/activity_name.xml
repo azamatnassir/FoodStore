@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".NameActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/verify_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/left"
+            app:tint="@color/green_500" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Sign in"
+            android:textSize="38sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:text="looks like you're here for the first time, \n so could you please leave your name"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/user_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Name"
+                android:inputType="textPersonName"
+                android:textSize="16sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/user_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Address"
+                    android:inputType="textPersonName" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/address_map"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginStart="5dp"
+                app:cardCornerRadius="5dp"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#9b9b9b">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Map"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/address_kv"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Apartment"
+                    android:inputType="textPersonName" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="2dp"
+                android:layout_weight="1">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/address_door"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Entrance"
+                    android:inputType="textPersonName" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/address_floor"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Floor"
+                    android:inputType="textPersonName" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ProgressBar
+                android:id="@+id/verify_progress"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/verify_btn"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_btn"
+            android:text="Let's order"
+            android:textSize="@dimen/btn_text_size" />
+
+    </LinearLayout>
+
+</LinearLayout>

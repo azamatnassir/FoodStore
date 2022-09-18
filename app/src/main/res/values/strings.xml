@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">FoodStore</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoiYXphbWF0bnNyIiwiYSI6ImNsM3JqNHhsOTA5NG8za28waWkweWk2ajYifQ.-90sUFrcRHtGe5Ba-WJ0tg</string>
+
+    <string-array name="langs">
+        <item>Eng</item>
+        <item>Kaz</item>
+        <item>Rus</item>
+    </string-array>
+
+    <string-array name="addresses">
+        <item>ул.Достык, 13/1</item>
+        <item>пр.Туран, 19/1</item>
+        <item>пр.Тауелсиздик, 28</item>
+        <item>ул.Жанибека Тархана, 2</item>
+        <item>пр. Сарыарка, 28</item>
+    </string-array>
+
+    <string name="title_activity_menu">Menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_menu">Menu</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_cart">Cart</string>
+    <string name="menu_history">Order history</string>
+    <string name="menu_about">About</string>
+    <string name="menu_support">Support</string>
+    <string name="menu_website">Website</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="soups">Soups</string>
+    <string name="second_course">Second course</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="pizza">Pizza</string>
+    <string name="kebab">Kebab</string>
+    <string name="salad">Salad</string>
+    <string name="additional">Additional</string>
+    <string name="deserts">Deserts</string>
+    <string name="drinks">Drinks</string>
+    <string name="selected_place_info">Selected location information:\n%1$s</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FoodStore</string>
+    <string name="title_activity_menu">Меню</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Настройки</string>
+    <string name="menu_home">Главная</string>
+    <string name="menu_gallery">Галерея</string>
+    <string name="menu_slideshow">Слайдшоу</string>
+    <string name="menu_menu">Меню</string>
+    <string name="menu_profile">Профиль</string>
+    <string name="menu_cart">Корзина</string>
+    <string name="menu_history">История заказов</string>
+    <string name="menu_about">О нас</string>
+    <string name="menu_support">Поддержка</string>
+    <string name="menu_website">Сайт</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="pizza">Пицца</string>
+    <string name="salad">Салаты</string>
+    <string name="kebab">Шашлыки</string>
+    <string name="additional">Дополнительно</string>
+    <string name="deserts">Десерты</string>
+    <string name="second_course">Вторые блюда</string>
+    <string name="soups">Первые блюда</string>
+    <string name="drinks">Напитки</string>
+    <string name="breakfast">Завтраки</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoiYXphbWF0bnNyIiwiYSI6ImNsM3JqNHhsOTA5NG8za28waWkweWk2ajYifQ.-90sUFrcRHtGe5Ba-WJ0tg</string>
+    <string name="selected_place_info">Selected location information:</string>
+</resources>

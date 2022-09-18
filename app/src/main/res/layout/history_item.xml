@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="15dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/history_item_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:gravity="end"
+                android:text="Tue May 10 23:54:03 GMT 2022"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/history_item_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="end"
+                android:text="Status: processing"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/history_item_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:gravity="start"
+                android:singleLine="false"
+                android:text="Delivery to the address: \nул.Шакарим Кудайбердыулы, 33, кв. 162, подъезд 3а, этаж 4"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/divider5"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="7dp"
+                android:background="@color/grey" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/history_food_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"/>
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="7dp"
+                android:background="@color/grey" />
+
+            <TextView
+                android:id="@+id/history_item_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="7dp"
+                android:gravity="start"
+                android:singleLine="false"
+                android:text="Payment method: Cash \nTotal price: 7900"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

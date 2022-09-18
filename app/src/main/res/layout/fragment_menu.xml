@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="13dp"
+            android:src="@drawable/ic_back_category" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/category_list"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:orientation="horizontal" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="13dp"
+            android:src="@drawable/ic_forward_category" />
+
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/menu_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/category_name1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="30dp"
+                android:text="@string/soups"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/main_list1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:nestedScrollingEnabled="false"
+                android:paddingStart="15dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="15dp" />
+
+            <TextView
+                android:id="@+id/category_name2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:paddingStart="30dp"
+                android:text="@string/second_course"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/main_list2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                android:paddingStart="15dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="15dp" />
+
+            <TextView
+                android:id="@+id/category_name3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:paddingStart="30dp"
+                android:text="@string/breakfast"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/main_list3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                android:paddingStart="15dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="15dp" />
+
+            <TextView
+                android:id="@+id/category_name4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:paddingStart="30dp"
+                android:text="@string/pizza"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/main_list4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                android:paddingStart="15dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="15dp" />
+
+            <TextView
+                android:id="@+id/category_name5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:paddingStart="30dp"
+                android:text="@string/kebab"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/main_list5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                android:paddingStart="15dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="15dp" />
+
+            <TextView
+                android:id="@+id/category_name6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:paddingStart="30dp"
+                android:text="@string/salad"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/main_list6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                android:paddingStart="15dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="15dp" />
+
+            <TextView
+                android:id="@+id/category_name7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:paddingStart="30dp"
+                android:text="@string/additional"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/main_list7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                android:paddingStart="15dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="15dp" />
+
+            <TextView
+                android:id="@+id/category_name8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:paddingStart="30dp"
+                android:text="@string/deserts"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/main_list8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                android:paddingStart="15dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="15dp" />
+
+            <TextView
+                android:id="@+id/category_name9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:paddingStart="30dp"
+                android:text="@string/drinks"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/main_list9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                android:paddingStart="15dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="15dp" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

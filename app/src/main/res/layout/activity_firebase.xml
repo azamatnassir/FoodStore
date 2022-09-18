@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Firebase">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/add_menu1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:background="@drawable/rounded_btn"
+            android:text="Soup" />
+
+        <Button
+            android:id="@+id/add_menu2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:background="@drawable/rounded_btn"
+            android:text="Second" />
+
+        <Button
+            android:id="@+id/add_menu3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:background="@drawable/rounded_btn"
+            android:text="Breakfast" />
+
+        <Button
+            android:id="@+id/add_menu4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:background="@drawable/rounded_btn"
+            android:text="Pizza" />
+
+        <Button
+            android:id="@+id/add_menu5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:background="@drawable/rounded_btn"
+            android:text="Kebab" />
+        <Button
+            android:id="@+id/add_menu6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:background="@drawable/rounded_btn"
+            android:text="Salad" />
+
+        <Button
+            android:id="@+id/add_menu7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:background="@drawable/rounded_btn"
+            android:text="Additional" />
+
+        <Button
+            android:id="@+id/add_menu8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:background="@drawable/rounded_btn"
+            android:text="Deserts" />
+
+        <Button
+            android:id="@+id/add_menu9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:background="@drawable/rounded_btn"
+            android:text="Drinks" />
+
+    </LinearLayout>
+
+</ScrollView>

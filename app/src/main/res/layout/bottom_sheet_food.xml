@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:paddingBottom="25dp"
+    android:paddingStart="25dp"
+    android:paddingEnd="25dp"
+    android:theme="@style/AppTheme">
+
+    <LinearLayout
+        android:id="@+id/sheet_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="5dp"
+            android:layout_marginBottom="10dp"
+            android:theme="@style/Maximize"
+            android:background="@drawable/rounded_maximize" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:id="@+id/modal_img"
+                android:layout_width="300dp"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/imperial" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/modal_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="Food title"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/modal_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="35dp"
+            android:text="Consists"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:cardCornerRadius="250dp"
+        app:cardElevation="0dp">
+
+        <LinearLayout
+            android:id="@+id/sheet_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EEEEEE"
+            android:elevation="0dp"
+            android:orientation="horizontal"
+            android:weightSum="8">
+
+            <TextView
+                android:id="@+id/modal_price"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="1500"
+                android:textSize="20sp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/modal_btn"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:background="@drawable/rounded_btn"
+                android:text="Add"
+                android:textSize="@dimen/btn_text_size" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

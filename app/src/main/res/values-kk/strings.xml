@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FoodStore</string>
+    <string name="title_activity_menu">Мәзір</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Баптаулар</string>
+    <string name="menu_home">Басты</string>
+    <string name="menu_gallery">Галерея</string>
+    <string name="menu_slideshow">Слайдшоу</string>
+    <string name="menu_menu">Мәзір</string>
+    <string name="menu_profile">Жеке кабинет</string>
+    <string name="menu_website">Сайт</string>
+    <string name="menu_settings">Баптаулар</string>
+    <string name="menu_about">Ақпарат</string>
+    <string name="menu_history">Тапсырыс тарихы</string>
+    <string name="menu_support">Қолдау</string>
+    <string name="menu_cart">Себет</string>
+    <string name="second_course">Екінші тағамдар</string>
+    <string name="breakfast">Таңғы ас</string>
+    <string name="pizza">Пицца</string>
+    <string name="kebab">Кәуап</string>
+    <string name="salad">Салаттар</string>
+    <string name="additional">Қосымша</string>
+    <string name="deserts">Десерттер</string>
+    <string name="drinks">Сусындар</string>
+    <string name="soups">Бірінші тағамдар</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoiYXphbWF0bnNyIiwiYSI6ImNsM3JqNHhsOTA5NG8za28waWkweWk2ajYifQ.-90sUFrcRHtGe5Ba-WJ0tg</string>
+    <string name="selected_place_info">Selected location information:</string>
+</resources>

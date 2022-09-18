@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/book_outline"
+            android:title="@string/menu_menu" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/user_outline"
+            android:title="@string/menu_profile" />
+
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/cart_outline"
+            android:title="@string/menu_cart" />
+
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/history"
+            android:title="@string/menu_history" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/information"
+            android:title="@string/menu_about" />
+    </group>
+
+    <item android:title="Additional">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/settings"
+                android:title="@string/menu_settings" />
+
+            <item
+                android:id="@+id/nav_support"
+                android:icon="@drawable/headphones_outline"
+                android:title="@string/menu_support" />
+
+            <item
+                android:id="@+id/nav_website"
+                android:icon="@drawable/laptop_outline"
+                android:title="@string/menu_website" />
+        </menu>
+    </item>
+
+</menu>
